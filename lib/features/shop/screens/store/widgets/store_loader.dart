@@ -7,8 +7,8 @@ import '../../../../../common/widgets/shimmers/shimmer.dart';
 import '../../../../../common/widgets/shimmers/vertical_product_shimmer.dart';
 import '../../../../../utils/constants/sizes.dart';
 
-class TStoreShimmerLoader extends StatelessWidget {
-  const TStoreShimmerLoader({super.key});
+class YbStoreShimmerLoader extends StatelessWidget {
+  const YbStoreShimmerLoader({super.key});
 
   @override
   Widget build(BuildContext context) {
