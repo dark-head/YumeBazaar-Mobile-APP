@@ -31,7 +31,7 @@ class BannerController extends GetxController {
       // Assign banners
       this.banners.assignAll(banners);
     } catch (e) {
-      TLoaders.errorSnackBar(title: 'Oh Snap!', message: e.toString());
+      YbLoaders.errorSnackBar(title: 'Oh Snap!', message: e.toString());
     } finally {
       bannersLoading.value = false;
     }

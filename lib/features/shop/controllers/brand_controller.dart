@@ -35,7 +35,7 @@ class BrandController extends GetxController {
       // Update the featured brands list
       featuredBrands.assignAll(allBrands.where((brand) => brand.isFeatured ?? false).take(4).toList());
     } catch (e) {
-      TLoaders.errorSnackBar(title: 'Oh Snap!', message: e.toString());
+      YbLoaders.errorSnackBar(title: 'Oh Snap!', message: e.toString());
     } finally {
       isLoading.value = false;
     }

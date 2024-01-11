@@ -36,7 +36,7 @@ class UserReviewCard extends StatelessWidget {
         Row(
           children: [
             ///Review Stars
-            TRatingBarIndicator(rating: productReview.rating),
+            YbRatingBarIndicator(rating: productReview.rating),
 
             ///Review Date
             const SizedBox(width: 10.0),

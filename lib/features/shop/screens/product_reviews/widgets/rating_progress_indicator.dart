@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import '../../../../../utils/constants/colors.dart';
 import '../../../../../utils/device/device_utility.dart';
 
-class TRatingProgressIndicator extends StatelessWidget {
-  const TRatingProgressIndicator({
+class YbRatingProgressIndicator extends StatelessWidget {
+  const YbRatingProgressIndicator({
     super.key,
     required this.text,
     required this.value,

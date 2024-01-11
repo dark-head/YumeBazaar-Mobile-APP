@@ -28,8 +28,8 @@ class ProductReviewsScreen extends StatelessWidget {
               const SizedBox(height: YbSizes.spaceBtwItems),
 
               /// Overall Product Ratings
-              const TOverallProductRating(),
-              const TRatingBarIndicator(rating: 3.5),
+              const YbOverallProductRating(),
+              const YbRatingBarIndicator(rating: 3.5),
               const Text("12,611"),
               const SizedBox(height: YbSizes.spaceBtwSections),
 

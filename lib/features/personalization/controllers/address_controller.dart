@@ -61,7 +61,7 @@ class AddressController extends GetxController {
 
       return addresses;
     } catch (e) {
-      TLoaders.errorSnackBar(title: 'Address not found', message: e.toString());
+      YbLoaders.errorSnackBar(title: 'Address not found', message: e.toString());
 
       return [];
     }
@@ -85,7 +85,7 @@ class AddressController extends GetxController {
 
       await addressRepository.updateSelectedField(AuthenticationRepository.instance.getUserID, selectedAddress.value.id, true);
     } catch (e) {
-      TLoaders.errorSnackBar(title: 'Error in Selection', message: e.toString());
+      YbLoaders.errorSnackBar(title: 'Error in Selection', message: e.toString());
     }
   }
 
@@ -143,7 +143,7 @@ class AddressController extends GetxController {
 
       // Show Success Message
 
-      TLoaders.successSnackBar(title: 'Congratulations', message: 'Your address has been saved successfully.');
+      YbLoaders.successSnackBar(title: 'Congratulations', message: 'Your address has been saved successfully.');
 
       // Refresh Addresses Data
 
@@ -161,7 +161,7 @@ class AddressController extends GetxController {
 
       TFullScreenLoader.stopLoading();
 
-      TLoaders.errorSnackBar(title: 'Address not found', message: e.toString());
+      YbLoaders.errorSnackBar(title: 'Address not found', message: e.toString());
     }
   }
 

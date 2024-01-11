@@ -110,7 +110,7 @@ class UpdateNameController extends GetxController {
 
       // Show Success Message
 
-      TLoaders.successSnackBar(title: 'Congratulations', message: 'Your Name has been updated.');
+      YbLoaders.successSnackBar(title: 'Congratulations', message: 'Your Name has been updated.');
 
       // Move to previous screen.
 
@@ -118,7 +118,7 @@ class UpdateNameController extends GetxController {
     } catch (e) {
       TFullScreenLoader.stopLoading();
 
-      TLoaders.errorSnackBar(title: 'Oh Snap!', message: e.toString());
+      YbLoaders.errorSnackBar(title: 'Oh Snap!', message: e.toString());
     }
   }
 }

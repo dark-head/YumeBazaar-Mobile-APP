@@ -49,31 +49,30 @@ class CartController extends GetxController {
 
   void addToCart(ProductModel product) {
     if (productQuantityInCart.value < 1) {
-      TLoaders.customToast(message: 'Select Quantity');
+      YbLoaders.customToast(message: 'Select Quantity');
       return;
     }
 
     if (product.productType == ProductType.variable.toString() && variationController.selectedVariation.value.id.isEmpty) {
-      TLoaders.customToast(message: 'Select Variation');
+      YbLoaders.customToast(message: 'Select Variation');
       return;
     }
 
     if (product.productType == ProductType.variable.toString()) {
       if (variationController.selectedVariation.value.stock < 1) {
-        TLoaders.warningSnackBar(message: 'Selected variation is out of stock.', title: 'Oh Snap!');
+        YbLoaders.warningSnackBar(message: 'Selected variation is out of stock.', title: 'Oh Snap!');
         return;
       }
     } else {
       if (product.stock < 1) {
-        TLoaders.warningSnackBar(message: 'Selected Product is out of stock.', title: 'Oh Snap!');
+        YbLoaders.warningSnackBar(message: 'Selected Product is out of stock.', title: 'Oh Snap!');
         return;
       }
     }
 
     // Convert the ProductModel to a CartItemModel with the given quantity
     final selectedCartItem = convertToCartItem(product, productQuantityInCart.value);
-    int index =
-        cartItems.indexWhere((cartItem) => cartItem.productId == selectedCartItem.productId && cartItem.variationId == selectedCartItem.variationId);
+    int index = cartItems.indexWhere((cartItem) => cartItem.productId == selectedCartItem.productId && cartItem.variationId == selectedCartItem.variationId);
 
     if (index >= 0) {
       // This quantity is already added or removed from the design
@@ -83,7 +82,7 @@ class CartController extends GetxController {
     }
 
     updateCart();
-    TLoaders.customToast(message: 'Your Product has been added to the Cart.');
+    YbLoaders.customToast(message: 'Your Product has been added to the Cart.');
   }
 
   void addOneToCart(CartItemModel item) {
@@ -120,7 +119,7 @@ class CartController extends GetxController {
         // Remove the item from the cart
         cartItems.removeAt(index);
         updateCart();
-        TLoaders.customToast(message: 'Product removed from the Cart.');
+        YbLoaders.customToast(message: 'Product removed from the Cart.');
         Get.back();
       },
       onCancel: () => () => Get.back(),

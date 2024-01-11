@@ -33,14 +33,12 @@ class CategoryController extends GetxController {
 
       // Filter featured categories
       featuredCategories.assignAll(allCategories.where((category) => (category.isFeatured) && category.parentId.isEmpty).take(8).toList());
-
     } catch (e) {
-      TLoaders.errorSnackBar(title: 'Oh Snap!', message: e.toString());
+      YbLoaders.errorSnackBar(title: 'Oh Snap!', message: e.toString());
     } finally {
       isLoading.value = false;
     }
   }
-
 
   /// -- Load selected category data
   Future<List<CategoryModel>> getSubCategories(String categoryId) async {
@@ -50,7 +48,7 @@ class CategoryController extends GetxController {
       final subCategories = categories.where((category) => category.parentId == categoryId).toList();
       return subCategories;
     } catch (e) {
-      TLoaders.errorSnackBar(title: 'Oh Snap!', message: e.toString());
+      YbLoaders.errorSnackBar(title: 'Oh Snap!', message: e.toString());
       return [];
     }
   }

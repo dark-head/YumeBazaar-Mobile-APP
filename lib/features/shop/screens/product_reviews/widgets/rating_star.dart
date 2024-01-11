@@ -4,8 +4,8 @@ import 'package:iconsax/iconsax.dart';
 
 import '../../../../../utils/constants/colors.dart';
 
-class TRatingBarIndicator extends StatelessWidget {
-  const TRatingBarIndicator({
+class YbRatingBarIndicator extends StatelessWidget {
+  const YbRatingBarIndicator({
     super.key,
     required this.rating,
   });

@@ -85,7 +85,7 @@ class CheckoutScreen extends StatelessWidget {
           child: ElevatedButton(
             onPressed: subTotal > 0
                 ? () => orderController.processOrder(totalAmount)
-                : () => TLoaders.warningSnackBar(title: 'Empty Cart', message: 'Add items in the cart in order to proceed.'),
+                : () => YbLoaders.warningSnackBar(title: 'Empty Cart', message: 'Add items in the cart in order to proceed.'),
             child: Text('Checkout Rs$totalAmount'),
           ),
         ),

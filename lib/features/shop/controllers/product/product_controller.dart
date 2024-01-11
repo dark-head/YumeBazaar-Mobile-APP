@@ -29,7 +29,7 @@ class ProductController extends GetxController {
       // Assign Products
       featuredProducts.assignAll(products);
     } catch (e) {
-      TLoaders.errorSnackBar(title: 'Oh Snap!', message: e.toString());
+      YbLoaders.errorSnackBar(title: 'Oh Snap!', message: e.toString());
     } finally {
       isLoading.value = false;
     }
