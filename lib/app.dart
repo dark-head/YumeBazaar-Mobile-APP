@@ -15,8 +15,8 @@ class App extends StatelessWidget {
     return GetMaterialApp(
       title: YbTexts.appName,
       themeMode: ThemeMode.system,
-      theme: TAppTheme.lightTheme,
-      darkTheme: TAppTheme.darkTheme,
+      theme: YbAppTheme.lightTheme,
+      darkTheme: YbAppTheme.darkTheme,
       debugShowCheckedModeBanner: false,
       initialBinding: GeneralBindings(),
       getPages: AppRoutes.pages,

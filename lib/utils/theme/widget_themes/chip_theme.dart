@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '../../constants/colors.dart';
 
-class TChipTheme {
-  TChipTheme._();
+class YbChipTheme {
+  YbChipTheme._();
 
-  static ChipThemeData lightChipTheme = ChipThemeData(
+  static ChipThemeData lighYbChipTheme = ChipThemeData(
     checkmarkColor: YbColors.white,
     selectedColor: YbColors.primary,
     disabledColor: YbColors.grey.withOpacity(0.4),

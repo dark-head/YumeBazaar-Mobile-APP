@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import '../../constants/colors.dart';
 
 /// Custom Class for Light & Dark Text Themes
-class TTextTheme {
-  TTextTheme._(); // To avoid creating instances
+class YbTextTheme {
+  YbTextTheme._(); // To avoid creating instances
 
   /// Customizable Light Text Theme
-  static TextTheme lightTextTheme = TextTheme(
+  static TextTheme lighYbTextTheme = TextTheme(
     headlineLarge: const TextStyle().copyWith(fontSize: 32.0, fontWeight: FontWeight.bold, color: YbColors.dark),
     headlineMedium: const TextStyle().copyWith(fontSize: 24.0, fontWeight: FontWeight.w600, color: YbColors.dark),
     headlineSmall: const TextStyle().copyWith(fontSize: 18.0, fontWeight: FontWeight.w600, color: YbColors.dark),

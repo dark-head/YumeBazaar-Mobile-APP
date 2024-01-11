@@ -3,11 +3,11 @@ import '../../constants/colors.dart';
 import '../../constants/sizes.dart';
 
 /* -- Light & Dark Elevated Button Themes -- */
-class TElevatedButtonTheme {
-  TElevatedButtonTheme._(); //To avoid creating instances
+class YbElevatedButtonTheme {
+  YbElevatedButtonTheme._(); //To avoid creating instances
 
   /* -- Light Theme -- */
-  static final lightElevatedButtonTheme = ElevatedButtonThemeData(
+  static final lighYbElevatedButtonTheme = ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 0,
       foregroundColor: YbColors.light,

@@ -3,11 +3,11 @@ import '../../constants/colors.dart';
 import '../../constants/sizes.dart';
 
 /// Custom Class for Light & Dark Text Themes
-class TCheckboxTheme {
-  TCheckboxTheme._(); // To avoid creating instances
+class YbCheckboxTheme {
+  YbCheckboxTheme._(); // To avoid creating instances
 
   /// Customizable Light Text Theme
-  static CheckboxThemeData lightCheckboxTheme = CheckboxThemeData(
+  static CheckboxThemeData lighYbCheckboxTheme = CheckboxThemeData(
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(YbSizes.xs)),
     checkColor: MaterialStateProperty.resolveWith((states) {
       if (states.contains(MaterialState.selected)) {

@@ -21,7 +21,7 @@ class FavouritesController extends GetxController {
 
   // Method to initialize favorites by reading from storage
   Future<void> initFavorites() async {
-    final json = TLocalStorage.instance().readData('favorites');
+    final json = YbLocalStorage.instance().readData('favorites');
     if (json != null) {
       final storedFavorites = jsonDecode(json) as Map<String, dynamic>;
       favorites.assignAll(storedFavorites.map((key, value) => MapEntry(key, value as bool)));
@@ -41,7 +41,7 @@ class FavouritesController extends GetxController {
       saveFavoritesToStorage();
       YbLoaders.customToast(message: 'Product has been added to the Wishlist.');
     } else {
-      TLocalStorage.instance().removeData(productId);
+      YbLocalStorage.instance().removeData(productId);
       favorites.remove(productId);
       saveFavoritesToStorage();
       favorites.refresh();
@@ -52,7 +52,7 @@ class FavouritesController extends GetxController {
   // Save the updated favorites to storage
   Future<void> saveFavoritesToStorage() async {
     final encodedFavorites = json.encode(favorites);
-    TLocalStorage.instance().writeData('favorites', encodedFavorites);
+    YbLocalStorage.instance().writeData('favorites', encodedFavorites);
   }
 
   /// Method to get the list of favorite products

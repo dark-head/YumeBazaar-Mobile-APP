@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '../../constants/colors.dart';
 
-class TBottomSheetTheme {
-  TBottomSheetTheme._();
+class YbBottomSheetTheme {
+  YbBottomSheetTheme._();
 
-  static BottomSheetThemeData lightBottomSheetTheme = BottomSheetThemeData(
+  static BottomSheetThemeData lighYbBottomSheetTheme = BottomSheetThemeData(
     showDragHandle: true,
     backgroundColor: YbColors.white,
     modalBackgroundColor: YbColors.white,

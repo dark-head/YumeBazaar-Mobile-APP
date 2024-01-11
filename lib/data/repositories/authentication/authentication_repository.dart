@@ -51,7 +51,7 @@ class AuthenticationRepository extends GetxController {
       // User Logged-In: If email verified let the user go to Home Screen else to the Email Verification Screen
       if (user.emailVerified) {
         // Initialize User Specific Storage
-        await TLocalStorage.init(user.uid);
+        await YbLocalStorage.init(user.uid);
         Get.offAll(() => const HomeMenu());
       } else {
         Get.offAll(() => VerifyEmailScreen(email: getUserEmail));

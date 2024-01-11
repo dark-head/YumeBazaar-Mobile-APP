@@ -10,8 +10,8 @@ import '../theme/widget_themes/outlined_button_theme.dart';
 import '../theme/widget_themes/text_field_theme.dart';
 import '../theme/widget_themes/text_theme.dart';
 
-class TAppTheme {
-  TAppTheme._();
+class YbAppTheme {
+  YbAppTheme._();
 
   static ThemeData lightTheme = ThemeData(
     useMaterial3: true,
@@ -19,15 +19,15 @@ class TAppTheme {
     disabledColor: YbColors.grey,
     brightness: Brightness.light,
     primaryColor: YbColors.primary,
-    textTheme: TTextTheme.lightTextTheme,
-    chipTheme: TChipTheme.lightChipTheme,
+    textTheme: YbTextTheme.lighYbTextTheme,
+    chipTheme: YbChipTheme.lighYbChipTheme,
     scaffoldBackgroundColor: YbColors.white,
     appBarTheme: YbAppBarTheme.lighYbAppBarTheme,
-    checkboxTheme: TCheckboxTheme.lightCheckboxTheme,
-    bottomSheetTheme: TBottomSheetTheme.lightBottomSheetTheme,
-    elevatedButtonTheme: TElevatedButtonTheme.lightElevatedButtonTheme,
-    outlinedButtonTheme: TOutlinedButtonTheme.lightOutlinedButtonTheme,
-    inputDecorationTheme: TTextFormFieldTheme.lightInputDecorationTheme,
+    checkboxTheme: YbCheckboxTheme.lighYbCheckboxTheme,
+    bottomSheetTheme: YbBottomSheetTheme.lighYbBottomSheetTheme,
+    elevatedButtonTheme: YbElevatedButtonTheme.lighYbElevatedButtonTheme,
+    outlinedButtonTheme: YbOutlinedButtonTheme.lighYbOutlinedButtonTheme,
+    inputDecorationTheme: YbTextFormFieldTheme.lightInputDecorationTheme,
   );
 
   static ThemeData darkTheme = ThemeData(
@@ -36,14 +36,14 @@ class TAppTheme {
     disabledColor: YbColors.grey,
     brightness: Brightness.dark,
     primaryColor: YbColors.primary,
-    textTheme: TTextTheme.darkTextTheme,
-    chipTheme: TChipTheme.darkChipTheme,
+    textTheme: YbTextTheme.darkTextTheme,
+    chipTheme: YbChipTheme.darkChipTheme,
     scaffoldBackgroundColor: YbColors.black,
     appBarTheme: YbAppBarTheme.darkAppBarTheme,
-    checkboxTheme: TCheckboxTheme.darkCheckboxTheme,
-    bottomSheetTheme: TBottomSheetTheme.darkBottomSheetTheme,
-    elevatedButtonTheme: TElevatedButtonTheme.darkElevatedButtonTheme,
-    outlinedButtonTheme: TOutlinedButtonTheme.darkOutlinedButtonTheme,
-    inputDecorationTheme: TTextFormFieldTheme.darkInputDecorationTheme,
+    checkboxTheme: YbCheckboxTheme.darkCheckboxTheme,
+    bottomSheetTheme: YbBottomSheetTheme.darkBottomSheetTheme,
+    elevatedButtonTheme: YbElevatedButtonTheme.darkElevatedButtonTheme,
+    outlinedButtonTheme: YbOutlinedButtonTheme.darkOutlinedButtonTheme,
+    inputDecorationTheme: YbTextFormFieldTheme.darkInputDecorationTheme,
   );
 }

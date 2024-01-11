@@ -133,7 +133,7 @@ class CartController extends GetxController {
   }
 
   void loadCartItems() async {
-    final cartItemStrings = TLocalStorage.instance().readData<List<dynamic>>('cartItems');
+    final cartItemStrings = YbLocalStorage.instance().readData<List<dynamic>>('cartItems');
     if (cartItemStrings != null) {
       cartItems.assignAll(cartItemStrings.map((item) => CartItemModel.fromJson(item as Map<String, dynamic>)));
       updateCartTotals();
@@ -155,7 +155,7 @@ class CartController extends GetxController {
 
   void saveCartItems() {
     final cartItemStrings = cartItems.map((item) => item.toJson()).toList();
-    TLocalStorage.instance().writeData('cartItems', cartItemStrings);
+    YbLocalStorage.instance().writeData('cartItems', cartItemStrings);
   }
 
   /// -- Initialize already added Item's Count in the cart.
