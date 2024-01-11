@@ -48,71 +48,71 @@ class TDummyData {
   /// -- User
 
   static final UserModel user = UserModel(
-    firstName: 'Coding',
-    lastName: 'with T',
-    email: 'support@codingwithT.com',
-    phoneNumber: '+14155552671',
+    firstName: 'Yume',
+    lastName: 'Bazaar',
+    email: 'support@yumebazar.com',
+    phoneNumber: '+9779851225093',
     profilePicture: YbImages.user,
     addresses: [
       AddressModel(
         id: '1',
-        name: 'Coding with T',
-        phoneNumber: '+923178059528',
-        street: '82356 Timmy Coves',
-        city: 'South Liana',
-        state: 'Maine',
-        postalCode: '87665',
-        country: 'USA',
+        name: 'Yume Bazaar',
+        phoneNumber: '+9779851225093',
+        street: 'Old Baneshwor',
+        city: 'Kathmandu',
+        state: 'Bagmati',
+        postalCode: '44500',
+        country: 'Nepal',
       ),
       AddressModel(
         id: '6',
-        name: 'John Doe',
-        phoneNumber: '+1234567890',
-        street: '123 Main Street',
-        city: 'New York',
-        state: 'New York',
-        postalCode: '10001',
-        country: 'United States',
+        name: 'Sanjeev Shrestha',
+        phoneNumber: '+9779841993728',
+        street: 'Kapan',
+        city: 'Kathmandu',
+        state: 'Bagmati',
+        postalCode: '44500',
+        country: 'Nepal',
       ),
       AddressModel(
         id: '2',
-        name: 'Alice Smith',
-        phoneNumber: '+9876543210',
-        street: '456 Elm Avenue',
-        city: 'Los Angeles',
-        state: 'California',
-        postalCode: '90001',
-        country: 'United States',
+        name: 'Chandra Lal Shrestha',
+        phoneNumber: '+9779841059093',
+        street: 'Kapan',
+        city: 'Kathmandu',
+        state: 'Bagmati',
+        postalCode: '44500',
+        country: 'Nepal',
       ),
       AddressModel(
         id: '3',
-        name: 'Taimoor Sikander',
-        phoneNumber: '+923178059528',
-        street: 'Street 35',
-        city: 'Islamabad',
-        state: 'Federal',
-        postalCode: '48000',
-        country: 'Pakistan',
+        name: 'Ramila Nayaju',
+        phoneNumber: '+9779841993722',
+        street: 'Kapan',
+        city: 'Kathmandu',
+        state: 'Bagmati',
+        postalCode: '44500',
+        country: 'Nepal',
       ),
       AddressModel(
         id: '4',
-        name: 'Maria Garcia',
-        phoneNumber: '+5412345678',
-        street: '789 Oak Road',
-        city: 'Buenos Aires',
-        state: 'Buenos Aires',
-        postalCode: '1001',
-        country: 'Argentina',
+        name: 'Mayank Agarwal',
+        phoneNumber: '+9779841993721',
+        street: 'Dilibazar',
+        city: 'Kathmandu',
+        state: 'Bagmati',
+        postalCode: '44500',
+        country: 'Nepal',
       ),
       AddressModel(
         id: '5',
-        name: 'Liam Johnson',
-        phoneNumber: '+447890123456',
-        street: '10 Park Lane',
-        city: 'London',
-        state: 'England',
-        postalCode: 'SW1A 1AA',
-        country: 'United Kingdom',
+        name: 'Yaman Maharjan',
+        phoneNumber: '+9779841993720',
+        street: 'Naxal',
+        city: 'Kathmandu',
+        state: 'Bagmati',
+        postalCode: '44500',
+        country: 'Nepal',
       )
     ],
     username: '',
@@ -325,196 +325,6 @@ class TDummyData {
   /// -- List of all Products
 
   static final List<ProductModel> products = [
-    // ProductModel(
-    //   id: '001',
-    //   title: 'Green Nike sports shoe',
-    //   stock: 15,
-    //   price: 135,
-    //   isFeatured: true,
-    //   thumbnail: YbImages.productImage1,
-    //   description: 'Green Nike sports shoe',
-    //   brand: BrandModel(id: '1', image: YbImages.nikeLogo, name: 'Nike', productsCount: 265, isFeatured: true),
-    //   images: [YbImages.productImage1, YbImages.productImage23, YbImages.productImage21, YbImages.productImage9],
-    //   salePrice: 30,
-    //   sku: 'ABR4568',
-    //   categoryId: '1',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Black', 'Red']),
-    //     ProductAttributeModel(name: 'Size', values: ['EU 30', 'EU 32', 'EU 34']),
-    //   ],
-    //   productVariations: [
-    //     ProductVariationModel(
-    //         id: '1',
-    //         stock: 34,
-    //         price: 13400,
-    //         salePrice: 12200.6,
-    //         image: YbImages.productImage1,
-    //         description: 'This is a Product description for Green Nike sports shoe.',
-    //         attributeValues: {'Color': 'Green', 'Size': 'EU 34'}),
-    //     ProductVariationModel(id: '2', stock: 15, price: 13200, image: YbImages.productImage23, attributeValues: {'Color': 'Black', 'Size': 'EU 32'}),
-    //     ProductVariationModel(id: '3', stock: 0, price: 23400, image: YbImages.productImage23, attributeValues: {'Color': 'Black', 'Size': 'EU 34'}),
-    //     ProductVariationModel(id: '4', stock: 222, price: 23200, image: YbImages.productImage1, attributeValues: {'Color': 'Green', 'Size': 'EU 32'}),
-    //     ProductVariationModel(id: '5', stock: 0, price: 33400, image: YbImages.productImage21, attributeValues: {'Color': 'Red', 'Size': 'EU 34'}),
-    //     ProductVariationModel(id: '6', stock: 11, price: 33200, image: YbImages.productImage21, attributeValues: {'Color': 'Red', 'Size': 'EU 32'}),
-    //   ],
-    //   productType: 'ProductType.variable',
-    // ),
-
-    // ProductModel(
-    //   id: '002',
-    //   title: 'Blue T-shirt for all ages',
-    //   stock: 15,
-    //   price: 350,
-    //   isFeatured: true,
-    //   thumbnail: YbImages.productImage69,
-    //   description: 'This is a Product description for Blue Nike Sleeve less vest. There are more things that can be added but i am just practicing and nothing else.',
-    //   brand: BrandModel(id: '6', image: YbImages.zaraLogo, name: 'ZARA'),
-    //   images: [YbImages.productImage68, YbImages.productImage69, YbImages.productImage5],
-    //   salePrice: 300,
-    //   sku: 'ABR4568',
-    //   categoryId: '16',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-    //   productType: 'ProductType.single',
-    // ),
-
-    // ProductModel(
-    //   id: '003',
-    //   title: 'Leather brown Jacket',
-    //   stock: 15,
-    //   price: 38000,
-    //   isFeatured: false,
-    //   thumbnail: YbImages.productImage64,
-    //   description: 'This is a Product description for Leather brown Jacket. There are more things that can be added but i am just practicing and nothing else.',
-    //   brand: BrandModel(id: '6', image: YbImages.zaraLogo, name: 'ZARA'),
-    //   images: [YbImages.productImage64, YbImages.productImage65, YbImages.productImage66, YbImages.productImage67],
-    //   salePrice: 30000,
-    //   sku: 'ABR4568',
-    //   categoryId: '16',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-    //   productType: 'ProductType.single',
-    // ),
-
-    // ProductModel(
-    //   id: '004',
-    //   title: '4 Color collar t-shirt dry fit',
-    //   stock: 15,
-    //   price: 13500,
-    //   isFeatured: false,
-    //   thumbnail: YbImages.productImage60,
-    //   description: 'This is a Product description for 4 Color collar t-shirt dry fit. There are more things that can be added but its just a demo and nothing else.',
-    //   brand: BrandModel(id: '6', image: YbImages.zaraLogo, name: 'ZARA'),
-    //   images: [YbImages.productImage60, YbImages.productImage61, YbImages.productImage62, YbImages.productImage63],
-    //   salePrice: 30000,
-    //   sku: 'ABR4568',
-    //   categoryId: '16',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Color', values: ['Red', 'Yellow', 'Green', 'Blue']),
-    //     ProductAttributeModel(name: 'Size', values: ['EU 30', 'EU 32', 'EU 34']),
-    //   ],
-    //   productVariations: [
-    //     ProductVariationModel(
-    //         id: '1',
-    //         stock: 34,
-    //         price: 13400,
-    //         salePrice: 12200.6,
-    //         image: YbImages.productImage60,
-    //         description: 'This is a Product description for 4 Color collar t-shirt dry fit',
-    //         attributeValues: {'Color': 'Red', 'Size': 'EU 34'}),
-    //     ProductVariationModel(id: '2', stock: 15, price: 13200, image: YbImages.productImage60, attributeValues: {'Color': 'Red', 'Size': 'EU 32'}),
-    //     ProductVariationModel(id: '3', stock: 0, price: 23400, image: YbImages.productImage61, attributeValues: {'Color': 'Yellow', 'Size': 'EU 34'}),
-    //     ProductVariationModel(id: '4', stock: 222, price: 23200, image: YbImages.productImage61, attributeValues: {'Color': 'Yellow', 'Size': 'EU 32'}),
-    //     ProductVariationModel(id: '5', stock: 0, price: 33400, image: YbImages.productImage62, attributeValues: {'Color': 'Green', 'Size': 'EU 34'}),
-    //     ProductVariationModel(id: '6', stock: 11, price: 33200, image: YbImages.productImage62, attributeValues: {'Color': 'Green', 'Size': 'EU 30'}),
-    //     ProductVariationModel(id: '7', stock: 0, price: 33400, image: YbImages.productImage63, attributeValues: {'Color': 'Blue', 'Size': 'EU 30'}),
-    //     ProductVariationModel(id: '8', stock: 11, price: 33200, image: YbImages.productImage63, attributeValues: {'Color': 'Blue', 'Size': 'EU 34'}),
-    //   ],
-    //   productType: 'ProductType.variable',
-    // ),
-
-    // ///Products after banner
-
-    // ProductModel(
-    //   id: '005',
-    //   title: 'Nike Air Jordon Shoes',
-    //   stock: 15,
-    //   price: 35000,
-    //   isFeatured: false,
-    //   thumbnail: YbImages.productImage10,
-    //   description: 'Nike Air Jordon Shoes for running. Quality product, Long Lasting',
-    //   brand: BrandModel(id: '1', image: YbImages.nikeLogo, name: 'Nike', productsCount: 265, isFeatured: true),
-    //   images: [YbImages.productImage7, YbImages.productImage8, YbImages.productImage9, YbImages.productImage10],
-    //   salePrice: 30000,
-    //   sku: 'ABR4568',
-    //   categoryId: '8',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Color', values: ['Orange', 'Black', 'Brown']),
-    //     ProductAttributeModel(name: 'Size', values: ['EU 30', 'EU 32', 'EU 34']),
-    //   ],
-    //   productVariations: [
-    //     ProductVariationModel(
-    //         id: '1',
-    //         stock: 16,
-    //         price: 36000,
-    //         salePrice: 12000.6,
-    //         image: YbImages.productImage8,
-    //         description:
-    //             'Flutter is Google’s mobile UI open source framework to build high-quality native (super fast) interfaces for iOS and Android apps with the unified codebase.',
-    //         attributeValues: {'Color': 'Orange', 'Size': 'EU 34'}),
-    //     ProductVariationModel(id: '2', stock: 15, price: 35000, image: YbImages.productImage7, attributeValues: {'Color': 'Black', 'Size': 'EU 32'}),
-    //     ProductVariationModel(id: '3', stock: 14, price: 34000, image: YbImages.productImage9, attributeValues: {'Color': 'Brown', 'Size': 'EU 34'}),
-    //     ProductVariationModel(id: '4', stock: 13, price: 33000, image: YbImages.productImage7, attributeValues: {'Color': 'Black', 'Size': 'EU 34'}),
-    //     ProductVariationModel(id: '5', stock: 12, price: 32000, image: YbImages.productImage9, attributeValues: {'Color': 'Brown', 'Size': 'EU 32'}),
-    //     ProductVariationModel(id: '6', stock: 11, price: 31000, image: YbImages.productImage8, attributeValues: {'Color': 'Orange', 'Size': 'EU 32'}),
-    //   ],
-    //   productType: 'ProductType.variable',
-    // ),
-
-    // ProductModel(
-    //   id: '006',
-    //   title: 'SAMSUNG Galaxy S9 (Pink, 64 GB)  (4 GB RAM)',
-    //   stock: 15,
-    //   price: 75000,
-    //   isFeatured: false,
-    //   thumbnail: YbImages.productImage11,
-    //   description: 'SAMSUNG Galaxy S9 (Pink, 64 GB)  (4 GB RAM), Long Battery timing',
-    //   brand: BrandModel(id: '7', image: YbImages.samsungLogo, name: 'Samsung'),
-    //   images: [YbImages.productImage11, YbImages.productImage12, YbImages.productImage13, YbImages.productImage12],
-    //   salePrice: 65000,
-    //   sku: 'ABR4568',
-    //   categoryId: '2',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-    //   productType: 'ProductType.single',
-    // ),
-
-    // ProductModel(
-    //   id: '007',
-    //   title: 'TOMI Dog food',
-    //   stock: 15,
-    //   price: 2000,
-    //   isFeatured: false,
-    //   thumbnail: YbImages.productImage18,
-    //   description: 'This is a Product description for TOMI Dog food. There are more things that can be added but i am just practicing and nothing else.',
-    //   // brand: BrandModel(id: '7', image: YbImages.appleLogo, name: 'Tomi'),
-    //   salePrice: 1000,
-    //   sku: 'ABR4568',
-    //   categoryId: '4',
-    //   // productAttributes: [
-    //   //   ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //   //   ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   // ],
-    //   productType: 'ProductType.single',
-    // ),
-
-    // //008 after 040
 
     ProductModel(
       id: '009',
@@ -801,538 +611,6 @@ class TDummyData {
 
       productType: 'ProductType.single',
     ),
-
-    //Furniture
-
-    //bedroom
-
-    // ProductModel(
-    //   id: '022',
-    //   title: 'Pure Wooden Bed',
-    //   stock: 15,
-    //   price: 15000,
-    //   isFeatured: true,
-    //   thumbnail: YbImages.productImage32,
-    //   description: 'Flutter is Google’s mobile UI open source framework to build high-quality native (super fast) interfaces for iOS and Android apps with the unified codebase.',
-    //   brand: BrandModel(id: '8', image: YbImages.kenwoodLogo, name: 'Kenwood'),
-    //   images: [YbImages.productImage43, YbImages.productImage44, YbImages.productImage45, YbImages.productImage46],
-    //   salePrice: 6000,
-    //   sku: 'ABR4568',
-    //   categoryId: '11',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Color', values: ['Black', 'Grey', 'Brown']),
-    //     ProductAttributeModel(name: 'Size', values: ['EU 30', 'EU 32', 'EU 34']),
-    //   ],
-    //   productVariations: [
-    //     ProductVariationModel(
-    //         id: '1',
-    //         stock: 16,
-    //         price: 36000,
-    //         salePrice: 12.6,
-    //         image: YbImages.productImage32,
-    //         description:
-    //             'Flutter is Google’s mobile UI open source framework to build high-quality native (super fast) interfaces for iOS and Android apps with the unified codebase.',
-    //         attributeValues: {'Color': 'Brown', 'Size': 'EU 34'}),
-    //     ProductVariationModel(id: '2', stock: 15, price: 35000, image: YbImages.productImage45, attributeValues: {'Color': 'Brown', 'Size': 'EU 32'}),
-    //     ProductVariationModel(id: '3', stock: 14, price: 34000, image: YbImages.productImage46, attributeValues: {'Color': 'Brown', 'Size': 'EU 30'}),
-    //     ProductVariationModel(id: '4', stock: 13, price: 33000, image: YbImages.productImage43, attributeValues: {'Color': 'Black', 'Size': 'EU 32'}),
-    //     ProductVariationModel(id: '5', stock: 12, price: 32000, image: YbImages.productImage43, attributeValues: {'Color': 'Black', 'Size': 'EU 34'}),
-    //     ProductVariationModel(id: '6', stock: 11, price: 31000, image: YbImages.productImage44, attributeValues: {'Color': 'Grey', 'Size': 'EU 32'}),
-    //   ],
-    //   productType: 'ProductType.variable',
-    // ),
-
-    // ProductModel(
-    //   id: '023',
-    //   title: 'Side Table Lamp',
-    //   stock: 15,
-    //   price: 2500,
-    //   thumbnail: YbImages.productImage33,
-    //   description: 'This is a Product description for Side Table Lamp. There are more things that can be added but i am just practicing and nothing else.',
-    //   brand: BrandModel(id: '8', image: YbImages.kenwoodLogo, name: 'Kenwood'),
-
-    //   // salePrice: 400,1
-    //   sku: 'ABR4568',
-    //   categoryId: '11',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-
-    //   productType: 'ProductType.single',
-    // ),
-
-    // ProductModel(
-    //   id: '024',
-    //   title: 'Bedroom Sofa',
-    //   stock: 15,
-    //   price: 2500,
-    //   thumbnail: YbImages.productImage34,
-    //   description: 'This is a Product description for Bedroom Sofa. There are more things that can be added but i am just practicing and nothing else.',
-    //   brand: BrandModel(id: '8', image: YbImages.kenwoodLogo, name: 'Kenwood'),
-
-    //   // salePrice: 400,1
-    //   sku: 'ABR4568',
-    //   categoryId: '11',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-
-    //   productType: 'ProductType.single',
-    // ),
-
-    // ProductModel(
-    //   id: '025',
-    //   title: 'Wardrobe for Bedroom',
-    //   stock: 15,
-    //   price: 5600,
-    //   thumbnail: YbImages.productImage35,
-    //   description: 'This is a Product description for Bedroom Wardrobe. There are more things that can be added but i am just practicing and nothing else.',
-    //   brand: BrandModel(id: '8', image: YbImages.kenwoodLogo, name: 'Kenwood'),
-
-    //   // salePrice: 400,1
-    //   sku: 'ABR4568',
-    //   categoryId: '11',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-
-    //   productType: 'ProductType.single',
-    // ),
-
-    // //Kitchen
-
-    // ProductModel(
-    //   id: '026',
-    //   title: 'Kitchen Counter',
-    //   stock: 15,
-    //   price: 6000,
-    //   thumbnail: YbImages.productImage36,
-    //   description: 'This is a Product description for Kitchen Counter. There are more things that can be added but i am just practicing and nothing else.',
-    //   brand: BrandModel(id: '2', image: YbImages.adidasLogo, name: 'Adidas'),
-
-    //   // salePrice: 400,1
-
-    //   sku: 'ABR4568',
-    //   categoryId: '12',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-
-    //   productType: 'ProductType.single',
-    // ),
-
-    // ProductModel(
-    //   id: '027',
-    //   title: 'Dinning Table',
-    //   stock: 15,
-    //   price: 10120,
-    //   thumbnail: YbImages.productImage37,
-    //   description: 'This is a Product description for Dinning Table. There are more things that can be added but i am just practicing and nothing else.',
-    //   brand: BrandModel(id: '2', image: YbImages.adidasLogo, name: 'Adidas'),
-
-    //   // salePrice: 400,1
-
-    //   sku: 'ABR4568',
-    //   categoryId: '12',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-
-    //   productType: 'ProductType.single',
-    // ),
-
-    // ProductModel(
-    //   id: '028',
-    //   title: 'Refrigerator',
-    //   stock: 15,
-    //   price: 98700,
-    //   thumbnail: YbImages.productImage38,
-    //   description: 'This is a Product description for Refrigerator. There are more things that can be added but i am just practicing and nothing else.',
-    //   brand: BrandModel(id: '2', image: YbImages.samsungLogo, name: 'Adidas'),
-
-    //   // salePrice: 400,1
-
-    //   sku: 'ABR4568',
-    //   categoryId: '12',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-
-    //   productType: 'ProductType.single',
-    // ),
-
-    // //Office
-
-    // ProductModel(
-    //   id: '029',
-    //   title: 'Office Chair Red',
-    //   stock: 15,
-    //   price: 1500,
-    //   thumbnail: YbImages.productImage39,
-    //   description: 'This is a Product description for Office Chair. There are more things that can be added but i am just practicing and nothing else.',
-
-    //   brand: BrandModel(id: '9', image: YbImages.ikeaLogo, name: 'IKEA'),
-
-    //   // salePrice: 400,1
-
-    //   sku: 'ABR4568',
-    //   categoryId: '13',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-
-    //   productType: 'ProductType.single',
-    // ),
-
-    // ProductModel(
-    //   id: '030',
-    //   title: 'Office Chair White',
-    //   stock: 15,
-    //   price: 1400,
-    //   thumbnail: YbImages.productImage40,
-    //   description: 'This is a Product description for Office Chair. There are more things that can be added but i am just practicing and nothing else.',
-    //   brand: BrandModel(id: '9', image: YbImages.ikeaLogo, name: 'IKEA'),
-
-    //   // salePrice: 400,1
-
-    //   sku: 'ABR4568',
-    //   categoryId: '13',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-
-    //   productType: 'ProductType.single',
-    // ),
-
-    // ProductModel(
-    //   id: '031',
-    //   title: 'Office Desk Red',
-    //   stock: 15,
-    //   price: 3600,
-    //   thumbnail: YbImages.productImage41,
-    //   description: 'This is a Product description for Office Desk. There are more things that can be added but i am just practicing and nothing else.',
-    //   brand: BrandModel(id: '9', image: YbImages.ikeaLogo, name: 'IKEA'),
-
-    //   // salePrice: 400,1
-
-    //   sku: 'ABR4568',
-    //   categoryId: '13',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-
-    //   productType: 'ProductType.single',
-    // ),
-
-    // ProductModel(
-    //   id: '032',
-
-    //   title: 'Office Desk brown',
-
-    //   stock: 15,
-
-    //   price: 40000,
-
-    //   thumbnail: YbImages.productImage42,
-
-    //   description: 'This is a Product description for Office Desk. There are more things that can be added but i am just practicing and nothing else.',
-
-    //   brand: BrandModel(id: '9', image: YbImages.ikeaLogo, name: 'IKEA'),
-
-    //   // salePrice: 400,1
-
-    //   sku: 'ABR4568',
-
-    //   categoryId: '13',
-
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-
-    //   productType: 'ProductType.single',
-    // ),
-
-    // ///Electronics
-
-    // //Laptops
-
-    // ProductModel(
-    //   id: '033',
-    //   title: 'Acer Laptop RAM 8gb to 16gb 512gb to 2tb',
-    //   stock: 15,
-    //   price: 150000,
-    //   isFeatured: true,
-    //   thumbnail: YbImages.productImage56,
-    //   description: 'This is a Product description for Acer Laptop. There are more things that can be added but i am just practicing and nothing else.',
-    //   brand: BrandModel(id: '10', image: YbImages.acerlogo, name: 'Acer'),
-    //   images: [YbImages.productImage56, YbImages.productImage47, YbImages.productImage57, YbImages.productImage58],
-    //   salePrice: 800,
-    //   sku: 'ABR4568',
-    //   categoryId: '14',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Ram', values: ['6', '8', '16']),
-    //     ProductAttributeModel(name: 'SSD', values: ['512', '1 tb', '2 tb']),
-    //   ],
-    //   productVariations: [
-    //     ProductVariationModel(
-    //         id: '1',
-    //         stock: 16,
-    //         price: 95000,
-    //         salePrice: 85000,
-    //         image: YbImages.productImage56,
-    //         description: 'This is a Product description for Acer Laptop. There are more things that can be added but i am just practicing and nothing else.',
-    //         attributeValues: {'Ram': '6', 'hard': '512'}),
-    //     ProductVariationModel(id: '2', stock: 15, price: 95000, image: YbImages.productImage47, attributeValues: {'Ram': '8', 'hard': '512'}),
-    //     ProductVariationModel(id: '3', stock: 14, price: 87000, image: YbImages.productImage59, attributeValues: {'Ram': '8', 'hard': '1 tb'}),
-    //     ProductVariationModel(id: '4', stock: 13, price: 85000, image: YbImages.productImage58, attributeValues: {'Ram': '16', 'hard': '512'}),
-    //     ProductVariationModel(id: '5', stock: 12, price: 85000, image: YbImages.productImage57, attributeValues: {'Ram': '16', 'hard': '1 tb'}),
-    //     ProductVariationModel(id: '6', stock: 11, price: 100000, image: YbImages.productImage59, attributeValues: {'Ram': '16', 'hard': '2 tb'}),
-    //   ],
-    //   productType: 'ProductType.variable',
-    // ),
-
-    // ProductModel(
-    //   id: '034',
-
-    //   title: 'Acer Laptop 6gb 1tb',
-
-    //   stock: 15,
-
-    //   price: 100000,
-
-    //   thumbnail: YbImages.productImage48,
-
-    //   description: 'This is a Product description for Acer Laptop. There are more things that can be added but i am just practicing and nothing else.',
-
-    //   brand: BrandModel(id: '10', image: YbImages.acerlogo, name: 'Acer'),
-
-    //   // salePrice: 400,1
-
-    //   sku: 'ABR4568',
-
-    //   categoryId: '14',
-
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-
-    //   productType: 'ProductType.single',
-    // ),
-
-    // ProductModel(
-    //   id: '035',
-
-    //   title: 'Acer Laptop 6gb 500Gb',
-
-    //   stock: 15,
-
-    //   price: 120000,
-
-    //   thumbnail: YbImages.productImage49,
-
-    //   description: 'This is a Product description for Acer Laptop. There are more things that can be added but i am just practicing and nothing else.',
-
-    //   brand: BrandModel(id: '10', image: YbImages.acerlogo, name: 'Acer'),
-
-    //   // salePrice: 400,1
-
-    //   sku: 'ABR4568',
-
-    //   categoryId: '14',
-
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-
-    //   productType: 'ProductType.single',
-    // ),
-
-    // ProductModel(
-    //   id: '036',
-
-    //   title: 'Acer Laptop 4gb 500Gb',
-
-    //   stock: 15,
-
-    //   price: 80000,
-
-    //   thumbnail: YbImages.productImage50,
-
-    //   description: 'This is a Product description for Acer Laptop. There are more things that can be added but i am just practicing and nothing else.',
-
-    //   brand: BrandModel(id: '10', image: YbImages.acerlogo, name: 'Acer'),
-
-    //   // salePrice: 400,1
-
-    //   sku: 'ABR4568',
-
-    //   categoryId: '14',
-
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-
-    //   productType: 'ProductType.single',
-    // ),
-
-    // //Mobiles
-
-    // ProductModel(
-    //   id: '037',
-
-    //   title: 'Iphone 13 pro 512gb',
-
-    //   stock: 15,
-
-    //   price: 126000,
-
-    //   thumbnail: YbImages.productImage51,
-
-    //   description: 'This is a Product description for Iphone. There are more things that can be added but i am just practicing and nothing else.',
-
-    //   brand: BrandModel(id: '5', image: YbImages.appleLogo, name: 'Apple'),
-
-    //   // salePrice: 400,1
-
-    //   sku: 'ABR4568',
-
-    //   categoryId: '15',
-
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-
-    //   productType: 'ProductType.single',
-    // ),
-
-    // ProductModel(
-    //   id: '038',
-
-    //   title: 'Iphone 14 pro 512gb',
-
-    //   stock: 15,
-
-    //   price: 148000,
-
-    //   thumbnail: YbImages.productImage52,
-
-    //   description: 'This is a Product description for Iphone. There are more things that can be added but i am just practicing and nothing else.',
-
-    //   brand: BrandModel(id: '5', image: YbImages.appleLogo, name: 'Apple'),
-
-    //   // salePrice: 400,1
-
-    //   sku: 'ABR4568',
-
-    //   categoryId: '15',
-
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-
-    //   productType: 'ProductType.single',
-    // ),
-
-    // ProductModel(
-    //   id: '039',
-
-    //   title: 'Iphone 14 white 512gb',
-
-    //   stock: 15,
-
-    //   price: 132000,
-
-    //   thumbnail: YbImages.productImage53,
-
-    //   description: 'This is a Product description for Iphone. There are more things that can be added but i am just practicing and nothing else.',
-
-    //   brand: BrandModel(id: '5', image: YbImages.appleLogo, name: 'Apple'),
-
-    //   // salePrice: 400,1
-
-    //   sku: 'ABR4568',
-
-    //   categoryId: '15',
-
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-
-    //   productType: 'ProductType.single',
-    // ),
-
-    // ProductModel(
-    //   id: '040',
-    //   title: 'Iphone 12, 4 Colors 128gb and 256gb',
-    //   stock: 15,
-    //   price: 98000,
-    //   isFeatured: true,
-    //   thumbnail: YbImages.productImage70,
-    //   description: 'This is a Product description for Iphone 12. There are more things that can be added but i am just practicing and nothing else.',
-    //   brand: BrandModel(id: '5', image: YbImages.appleLogo, name: 'Apple'),
-    //   images: [YbImages.productImage70, YbImages.productImage71, YbImages.productImage72, YbImages.productImage73],
-    //   salePrice: 80000,
-    //   sku: 'ABR4568',
-    //   categoryId: '15',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue', 'Black']),
-    //     ProductAttributeModel(name: 'Storage', values: ['128 gb', '256 gb']),
-    //   ],
-    //   productVariations: [
-    //     ProductVariationModel(
-    //         id: '1',
-    //         stock: 16,
-    //         price: 80000,
-    //         salePrice: 75000,
-    //         image: YbImages.productImage70,
-    //         description: 'This is a Product description for Iphone 12. There are more things that can be added but i am just practicing and nothing else.',
-    //         attributeValues: {'Color': 'Red', 'Storage': '128 gb'}),
-    //     ProductVariationModel(id: '2', stock: 15, price: 85000, image: YbImages.productImage70, attributeValues: {'Color': 'Red', 'Storage': '256 gb'}),
-    //     ProductVariationModel(id: '3', stock: 14, price: 75000, image: YbImages.productImage71, attributeValues: {'Color': 'Blue', 'Storage': '128 gb'}),
-    //     ProductVariationModel(id: '4', stock: 13, price: 85000, image: YbImages.productImage71, attributeValues: {'Color': 'Blue', 'Storage': '256 gb'}),
-    //     ProductVariationModel(id: '5', stock: 12, price: 75500, image: YbImages.productImage72, attributeValues: {'Color': 'Green', 'Storage': '128 gb'}),
-    //     ProductVariationModel(id: '5', stock: 12, price: 85000, image: YbImages.productImage72, attributeValues: {'Color': 'Green', 'Storage': '256 gb'}),
-    //     ProductVariationModel(id: '6', stock: 11, price: 80000, image: YbImages.productImage73, attributeValues: {'Color': 'Black', 'Storage': '128 gb'}),
-    //     ProductVariationModel(id: '6', stock: 11, price: 80000, image: YbImages.productImage73, attributeValues: {'Color': 'Black', 'Storage': '256 gb'}),
-    //   ],
-    //   productType: 'ProductType.variable',
-    // ),
-
-    // ProductModel(
-    //   id: '008',
-    //   title: 'APPLE iPhone 8 (Black, 64 GB)',
-    //   stock: 15,
-    //   price: 58000,
-    //   isFeatured: true,
-    //   thumbnail: YbImages.productImage14,
-    //   description: 'This is a Product description for iphone 8. There are more things that can be added but i am just practicing and nothing else.',
-    //   brand: BrandModel(id: '5', image: YbImages.appleLogo, name: 'iphone 8'),
-    //   images: [YbImages.productImage15, YbImages.productImage16, YbImages.productImage17, YbImages.productImage14],
-    //   salePrice: 48000,
-    //   sku: 'ABR4568',
-    //   categoryId: '4',
-    //   productAttributes: [
-    //     ProductAttributeModel(name: 'Size', values: ['EU34', 'EU32']),
-    //     ProductAttributeModel(name: 'Color', values: ['Green', 'Red', 'Blue']),
-    //   ],
-    //   productType: 'ProductType.single',
-    // ),
   ];
 
   /// -- Sorting Filters for search
